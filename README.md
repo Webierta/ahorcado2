@@ -1,5 +1,7 @@
 # Ahorcado x2
 
+![Ahorcado Logo](https://raw.githubusercontent.com/Webierta/ahorcado2/master/ahorcado/ahorcado.png)
+
 Autor: Jesús Cuerda Villanueva. Versión: 1.0 (2016 - actualmente sin mantenimiento).
 
 Aplicación gratuita y sin publicidad. Colabora con un donativo vía [PayPal](https://goo.gl/SukJub)
@@ -7,20 +9,19 @@ Aplicación gratuita y sin publicidad. Colabora con un donativo vía [PayPal](ht
 ## REQUISITOS Y EJECUCIÓN
 
 Aplicación multiplataforma desarrollada con lenguaje de programación Ruby e interfaz gráfica Gtk3.
-Requiere tener instalado ruby (versión 2.3.1 o superior) y ruby-gtk3.
 
-Descomprime el archivo descargado. Para instalar y ejecutar en Ubuntu y similares tan fácil como:
+Requiere tener instalado ruby (versión 2.3.1 o superior) y ruby-gtk3. En Ubuntu y similares tan fácil como:
 
     sudo apt install ruby
     sudo apt install ruby-gtk3
 
-Y ejecuta desde consola (desde el directorio ahorcado) con:
-
-    ruby ahorcado.rb
-
 Para saber cómo instalar ruby en tu sistema: https://www.ruby-lang.org/es/documentation/installation/
 
 Para instalar ruby-gtk3: https://www.gtk.org/download/index.php
+
+Para ejecutar la aplicación descomprime el archivo descargado y escribe en consola (desde el directorio ahorcado) con:
+
+    ruby ahorcado.rb
 
 Probado en Xubuntu 16.10. Las versiones de desarrollo se han probado en ruby v.2.3.0 y v.2.3.1 y viendo ciertas incompatibilidades entre ambas, finalmente se ha optado por la versión más reciente que es la que en ese momento estaba en los repositorios de Ubuntu.
 
